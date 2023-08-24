@@ -10,13 +10,14 @@ This is a workaround for the issue of helix not loading your config file if exec
 
 REQUIREMENTS:
 
-1) Helix.
-2) Sudo
-3) make
+1) helix
+2) sudo
+3) GNU make
+4) Enough love for yourself to actually use helix over vim.
 
 INSTALLATION:
 
-```bash
+```
 git clone https://github.com/evelinwillow/helix_wrapper.git
 cd helix_wrapper
 make install
@@ -24,7 +25,9 @@ make install
 
 UNINSTALLATION:
 
-```bash
+It should be noted that this script actually renames the helix binary. Hence, if you uninstall the package, it leaves behind the *renamed* executable and only removes the *wrapper* file. Have an uninstall script.
+
+```
 git clone https://github.com/evelinwillow/helix_wrapper.git
 cd helix_wrapper
 make uninstall
