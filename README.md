@@ -13,7 +13,7 @@ REQUIREMENTS:
 1) helix
 2) sudo
 3) GNU make
-4) Enough love for yourself to actually use helix over vim.
+4) Enough hatred for yourself to actually use helix over vim.
 
 INSTALLATION:
 
